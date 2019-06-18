@@ -25,6 +25,7 @@ There is 1 exceptions class for the application to catch when no corpus is loade
       * output/priority
       * output/single
       * output/Tests
+      * input/unitTests/TestIfNoFilesInDirectory      
 3. Run 'mvn install' to download dependancies using Maven. Dependencies include JUnit and OpenNLP.
 4. Run the application App.java prior to running JUnit tests.
 5. Run the application App.java by passing the arguement "loadCorpus" to the main method
@@ -44,7 +45,7 @@ There is 1 exceptions class for the application to catch when no corpus is loade
 * The industry partner required the use of OpenNLP as the tokenizing technology.
     - This library requires the use of OpenNLP models (input/BinFiles) and the OpenNLP library added using Maven dependencies
 * The industry partner preferred use of the Enron Corpus as the basis of the data, and to use approximately 5000 emails.
-* The academic institution required a directory of emails that was small enough to run quickly during presentation, so a corpus of 312 emails was used in the project. (but 5 corpus sizes are available at corpusDirectories folder in the project)
+* The academic institution required a directory of emails that was small enough to run quickly during presentation, so a corpus of 17 emails was used in the project. (but 5 corpus sizes are available at corpusDirectories folder in the project)
 * The industry partner required java 1.8 as the basis for the program.
 * The industry partner preferred output to flat file of tokenized information prior to analysis of tokens.
 * The industry partner required that the TF-IDF Method was used to determine the priority tokens for email content.

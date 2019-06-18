@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class EmailReaderService 
 {
 
-	private final static String corpusOfEmailsSource = "input/directory";
+	private final static String corpusOfEmailsSource = "corpusDirectories/directoryOf17EmailFiles";
 	private final static String stopWordsSource = "input/stopwords/StopWordsListFinal.txt";
 
 	
