@@ -31,7 +31,7 @@ public class EmailReaderServiceTest
 
 		ArrayList<String> testReturnedDirectoryList1 = EmailReaderService.getDirectoryFiles();
 		assertNotNull(testReturnedDirectoryList1);
-		assertEquals(308, testReturnedDirectoryList1.size());
+		assertEquals(17, testReturnedDirectoryList1.size());
 	}
 
 	
